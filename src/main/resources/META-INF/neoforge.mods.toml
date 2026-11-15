@@ -7,7 +7,7 @@ modId="citizentab"
 version="${mod_version}"
 displayName="Citizen Tab"
 authors="Ishawakiii"
-description='''La liste Tab n'affiche plus les pseudos des joueurs mais leur fiche RP : prénom, nom, âge, profession. Mod serveur uniquement (PC et console).'''
+description='''La liste Tab affiche le recensement des joueurs (prénom, nom, âge, profession) tenu par Citizen Economy, à la place des pseudos. Mod serveur uniquement (PC et console).'''
 
 [[dependencies.citizentab]]
 modId="neoforge"
