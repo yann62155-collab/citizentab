@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="citizentab"
+version="${mod_version}"
+displayName="Citizen Tab"
+authors="Ishawakiii"
+description='''La liste Tab n'affiche plus les pseudos des joueurs mais leur fiche RP : prénom, nom, âge, profession. Mod serveur uniquement (PC et console).'''
+
+[[dependencies.citizentab]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.215,)"
+ordering="NONE"
+side="SERVER"
+
+[[dependencies.citizentab]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="SERVER"
+
