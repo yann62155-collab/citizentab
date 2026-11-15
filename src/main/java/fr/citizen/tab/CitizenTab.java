@@ -21,5 +21,9 @@ public class CitizenTab {
     public CitizenTab(IEventBus modBus) {
         // LOWEST : passe après les autres mods (ex. Citizen Noms) pour que le recensement gagne dans le Tab.
         NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, TabEvents::onTabListNameFormat);
+        NeoForge.EVENT_BUS.addListener(TabEvents::onServerStarted);
+        NeoForge.EVENT_BUS.addListener(TabEvents::onServerTick);
+        NeoForge.EVENT_BUS.addListener(TabEvents::onLogin);
+        NeoForge.EVENT_BUS.addListener(TabCommand::register);
     }
 }
